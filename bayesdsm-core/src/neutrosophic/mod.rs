@@ -363,8 +363,7 @@ pub fn run(conn: &mut Connection, run_id: i64, source_run: i64) -> Result<()> {
             .get(site)
             .cloned()
             .unwrap_or_else(|| "Θ".to_string());
-        // Soft, decision-support language — these are *hints*, not directives
-        // (per refined_outline.md prohibited-claims list).
+        // Soft decision-support language: these are hints, not directives.
         let rec = match band {
             "Critical" => {
                 "Verification strongly suggested; expand sampling and re-test in next campaign."

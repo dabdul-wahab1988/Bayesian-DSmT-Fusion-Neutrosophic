@@ -1,8 +1,8 @@
 //! Centralised STOP / WARN / DOWNGRADE rule registry.
 //!
 //! Every module that mutates state should call into this module at its
-//! boundary to validate numerical invariants from `plan.txt` §17 and the
-//! package-level STOP rules in `primary_input_contract.md` §12.
+//! boundary to validate numerical invariants and the package-level STOP rules
+//! in `primary_input_contract.md`.
 
 use rusqlite::{params, Connection};
 

@@ -6,8 +6,8 @@ The schema is the **single source of truth**. There are two SQL files under
 * `0001_init.sql` — tables (audit, raw inputs, internal outputs, exports)
 * `0002_views.sql` — eight R-ready views
 
-The 13 internal output tables that match `primary_input_contract.md §7` and
-`plan.txt §16` are reproduced below for quick reference.
+The internal output tables used by the pipeline are reproduced below for quick
+reference.
 
 ## Audit & run
 

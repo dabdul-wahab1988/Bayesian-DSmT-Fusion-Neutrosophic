@@ -1,108 +1,214 @@
-# `bayesdsm`
+# bayesdsm
 
-Reproducible **Bayesian – Dezert-Smarandache (DSmT) – Neutrosophic** sediment-metal
-hotspot prioritization. Pure-Rust CLI backed by a single SQLite database.
+`bayesdsm` is a Rust and SQLite command-line package for reproducible
+Bayesian-DSmT-neutrosophic sediment-metal hotspot prioritization.
 
-The package is the computational counterpart of the manuscript
-`refined_outline.md` (scientific design) and the contract in
-`primary_input_contract.md` (user-supplied inputs). The math is specified in
-`plan.txt`; the Rust code is the realisation.
+The package ingests primary monitoring, source, exposure, confidence, and
+validation CSV files into one SQLite database, runs the analysis pipeline, and
+exports R-ready CSV views for reporting and manuscript figures.
 
-## What it does
+## What The Pipeline Does
 
+The implemented pipeline is:
+
+```text
+CSV inputs
+  -> init/ingest/audit
+  -> clean
+  -> features
+  -> bayes
+  -> belief
+  -> dsmt
+  -> neutrosophic/rank
+  -> validate/sensitivity/export
 ```
-       ┌────────┐    ┌─────────┐    ┌─────────┐    ┌──────────┐    ┌────────┐    ┌──────────┐
- CSVs  │ ingest │ →  │ features│ →  │  bayes  │ →  │ belief   │ →  │  dsmt  │ →  │neutrosoph│ → rank → export
-       └────────┘    └─────────┘    └─────────┘    └──────────┘    └────────┘    └──────────┘
-```
 
-For every site in the input set the package produces:
+For each site, the pipeline estimates and stores:
 
-* a posterior probability of contamination `p_hotspot`,
-* a posterior source-attribution vector over the DSmT hypotheses,
-* a pignistic single-value "dominant source" risk score,
-* a neutrosophic triplet `(T, F, I)` per criterion,
-* a final `priority_score ∈ [0, 1]` and a rank band
-  (`Critical | High | Moderate | Low`) with a 95 % rank-CI and a stability index.
+- contamination and hotspot probabilities;
+- source-support summaries over configured DSmT hypotheses;
+- generalized belief assignments and fused DSmT masses;
+- pignistic source-risk scores;
+- neutrosophic truth, falsity, and indeterminacy memberships;
+- final priority score, rank, rank band, rank uncertainty interval, and rank
+  stability.
 
-All intermediates are persisted in a single SQLite file — the only file the
-package treats as state.
+All operational state is held in the SQLite database selected with `--db`.
+Generated databases, build outputs, local text drafts, and Word documents are
+ignored by Git.
 
-## Install
+## Repository Layout
+
+| Path | Purpose |
+|---|---|
+| `bayesdsm-cli/` | `bayesdsm` command-line interface. |
+| `bayesdsm-core/` | Core ingestion, auditing, Bayesian, DSmT, neutrosophic, validation, and export logic. |
+| `bayesdsm-core/src/schema/` | SQLite schema and R-ready views. |
+| `docs/cli.md` | Subcommand and flag reference. |
+| `docs/sql_schema.md` | Database schema notes. |
+| `examples/inputs/` | Small example input CSV set. |
+| `tests/synthetic/` | Synthetic fixture used by integration tests. |
+| `primary_input_contract.md` | Required CSV files, columns, units, ranges, and validation rules. |
+| `REPRODUCIBILITY.md` | Reproducibility recipe and expected fixture outputs. |
+
+## Requirements
+
+- Rust toolchain with Cargo.
+- No external database server is required. SQLite is embedded through the Rust
+  `rusqlite` bundled feature.
+
+## Build
+
+From the repository root:
 
 ```bash
-cd pacakage
 cargo build --release
-# Binary: target/release/bayesdsm.exe (Windows) or target/release/bayesdsm
+```
+
+The release binary is created at:
+
+- Windows: `target/release/bayesdsm.exe`
+- Linux/macOS: `target/release/bayesdsm`
+
+You can also run commands through Cargo:
+
+```bash
+cargo run -p bayesdsm-cli -- --help
 ```
 
 ## Quickstart
 
-```bash
-# 1. Initialise the schema (drops & recreates with --force).
-bayesdsm --db test.sqlite init --force
+The commands below run the full pipeline on the committed synthetic fixture.
 
-# 2. Ingest a directory of CSVs that follows primary_input_contract.md.
-bayesdsm --db test.sqlite ingest --input-dir tests/synthetic
+Windows PowerShell:
 
-# 3. Run the full pipeline.
-bayesdsm --db test.sqlite audit
-bayesdsm --db test.sqlite clean
-bayesdsm --db test.sqlite features
-bayesdsm --db test.sqlite bayes
-bayesdsm --db test.sqlite belief
-bayesdsm --db test.sqlite dsmt
-bayesdsm --db test.sqlite neutrosophic
-bayesdsm --db test.sqlite rank
-bayesdsm --db test.sqlite export --out-dir out/
-
-# 4. Validate against independent labels (no-op if absent).
-bayesdsm --db test.sqlite validate
-
-# 5. Re-run the pipeline under parameter perturbations.
-bayesdsm --db test.sqlite sensitivity --out-dir out/sensitivity
+```powershell
+.\target\release\bayesdsm.exe --db test.sqlite init --force
+.\target\release\bayesdsm.exe --db test.sqlite ingest --input-dir tests\synthetic
+.\target\release\bayesdsm.exe --db test.sqlite audit
+.\target\release\bayesdsm.exe --db test.sqlite clean
+.\target\release\bayesdsm.exe --db test.sqlite features
+.\target\release\bayesdsm.exe --db test.sqlite bayes
+.\target\release\bayesdsm.exe --db test.sqlite belief
+.\target\release\bayesdsm.exe --db test.sqlite dsmt
+.\target\release\bayesdsm.exe --db test.sqlite neutrosophic
+.\target\release\bayesdsm.exe --db test.sqlite rank
+.\target\release\bayesdsm.exe --db test.sqlite validate
+.\target\release\bayesdsm.exe --db test.sqlite sensitivity --out-dir out\sensitivity
+.\target\release\bayesdsm.exe --db test.sqlite export --out-dir out
 ```
 
-Open `out/v_rankings_full.csv` for the final ranking.
-
-## Input contract
-
-See `primary_input_contract.md`. The package does not invent additional required
-inputs. CSV column names, units, ranges, and STOP conditions are all in that
-document and the `validate` step enforces them.
-
-## Tests
+Linux/macOS:
 
 ```bash
-cargo test --workspace -- --test-threads=1
+./target/release/bayesdsm --db test.sqlite init --force
+./target/release/bayesdsm --db test.sqlite ingest --input-dir tests/synthetic
+./target/release/bayesdsm --db test.sqlite audit
+./target/release/bayesdsm --db test.sqlite clean
+./target/release/bayesdsm --db test.sqlite features
+./target/release/bayesdsm --db test.sqlite bayes
+./target/release/bayesdsm --db test.sqlite belief
+./target/release/bayesdsm --db test.sqlite dsmt
+./target/release/bayesdsm --db test.sqlite neutrosophic
+./target/release/bayesdsm --db test.sqlite rank
+./target/release/bayesdsm --db test.sqlite validate
+./target/release/bayesdsm --db test.sqlite sensitivity --out-dir out/sensitivity
+./target/release/bayesdsm --db test.sqlite export --out-dir out
 ```
 
-* 42 unit tests cover individual numerical and algebraic steps (R-hat, ESS,
-  neutrosophic triplet, DSmT canonicalize, …).
-* 3 end-to-end tests in `bayesdsm-core/tests/e2e.rs` drive the full pipeline
-  on `tests/synthetic/` and assert:
-  * all 9 internal output tables are non-empty,
-  * `Σm(A) = 1` for every site (within 1e-6),
-  * every site has a rank in `[1, N_s]`,
-  * all 8 R-ready SQL views exist and export to CSV,
-  * a non-positive background value triggers a STOP at ingest/audit.
+The main ranking output is `out/v_rankings_full.csv`.
+
+## Input Data
+
+Input directories must follow `primary_input_contract.md`. The pipeline expects
+the contract CSVs for site metadata, sampling events, metal concentrations,
+background values, confidence indicators, source indicators, exposure
+indicators, stakeholder weights, DSmT hypotheses/constraints, configuration,
+allowed values, data dictionary entries, leakage rules, and optional validation
+labels.
+
+`ingest` hashes every input CSV with SHA-256 and records the hash and row count
+in `input_files`.
+
+## CLI Commands
+
+The binary exposes 13 subcommands:
+
+| Command | Purpose |
+|---|---|
+| `init` | Create or migrate the SQLite schema. Use `--force` to drop and recreate objects. |
+| `ingest` | Load contract CSV files from `--input-dir`. |
+| `audit` | Run post-ingestion checks and write warnings/failures. |
+| `clean` | Standardize raw concentrations and handle non-detects. |
+| `features` | Compute CF, EF, Igeo, PLI, and normalized site features. |
+| `bayes` | Run the Bayesian enrichment, source-support, and hotspot models. |
+| `belief` | Convert posterior summaries into belief assignments. |
+| `dsmt` | Run DSmT fusion and pignistic transformation. |
+| `neutrosophic` | Build truth/falsity/indeterminacy memberships and scores. |
+| `rank` | Update final ranks, uncertainty bands, and stability metrics. |
+| `validate` | Evaluate rankings against independent validation labels when present. |
+| `sensitivity` | Re-run downstream scoring under configured perturbations. |
+| `export` | Export the eight R-ready SQLite views to CSV. |
+
+Global and subcommand flags:
+
+| Flag | Scope | Default |
+|---|---|---|
+| `--db <path>` | Global SQLite database path. | `bayesdsm.sqlite` |
+| `--force` | `init` schema reset. | off |
+| `--input-dir <path>` | `ingest` input directory. | required |
+| `--seed <u64>` | `bayes` random seed override. | value from `config`, falling back to `42` |
+| `--out-dir <path>` | `export` output directory. | `out` |
+| `--out-dir <path>` | `sensitivity` output directory. | `out/sensitivity` |
+
+See `docs/cli.md` for the detailed read/write table.
+
+## Exported Views
+
+`export` writes these R-ready views as CSV files:
+
+- `v_rankings_full`
+- `v_neutrosophic_long`
+- `v_posterior_summaries_wide`
+- `v_belief_assignments_long`
+- `v_dsmt_fused_long`
+- `v_features_wide`
+- `v_cleaned_metals_long`
+- `v_run_manifest`
+
+The `export_manifest` table records the exported view names, paths, row counts,
+and hashes.
+
+## Validation And Tests
+
+Run the workspace test suite with:
+
+```bash
+cargo test --workspace
+```
+
+Current verification from this repository state:
+
+- CLI unit target: 0 tests.
+- Core unit tests: 59 passed.
+- End-to-end tests: 4 passed.
+- Doctests: 0 tests.
+
+The end-to-end suite runs the synthetic pipeline and checks mass conservation,
+ranking/export invariants, validation warning output, and STOP behavior for an
+invalid background value.
 
 ## Reproducibility
 
-Every primary input CSV is SHA-256 hashed at ingest; the hash is stored in
-`input_files.sha256`. The MCMC seed is taken from `config.random_seed`. With
-identical inputs and identical seed, all posterior draws and downstream
-quantities are bit-for-bit reproducible. See `REPRODUCIBILITY.md` for the full
-recipe and a worked example.
+Reproducibility is built around the SQLite run manifest:
 
-## Mapping to the manuscript
+- each pipeline step writes a run record;
+- input files are hashed at ingest;
+- random draws use the configured seed;
+- exports include manifest records for generated CSVs.
 
-See `docs/mapping.md` for the table that links every section of
-`refined_outline.md` to the code module that implements it.
+See `REPRODUCIBILITY.md` for the worked fixture recipe.
 
-## Strict mode
+## Attribution
 
-By default, any condition listed under §17 of `plan.txt` (e.g. non-positive
-background, weights not summing to 1) causes the offending subcommand to
-`STOP` (exit non-zero) and write a row to `failures`.  There is no `--lenient`
-flag in this build; the contract is strict by design.
+No AI attribution trailer is included in this repository.

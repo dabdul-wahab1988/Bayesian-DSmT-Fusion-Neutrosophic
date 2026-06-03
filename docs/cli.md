@@ -38,5 +38,6 @@ checkpoint: you can re-run any of them after fixing upstream data.
 
 ## STOP / WARN / DOWNGRADE codes
 
-The codes match the chapter numbers in `plan.txt §17`. See
-`docs/mapping.md` for the full list.
+STOP rows are written to the `failures` table with a machine-readable `code`
+and human-readable `message`. The validation rule implementations live in
+`bayesdsm-core/src/audit/failure_rules.rs`.

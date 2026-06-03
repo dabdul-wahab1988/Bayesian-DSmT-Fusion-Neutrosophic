@@ -3,7 +3,7 @@
 //! Drives the full pipeline (init → ingest → audit → clean → features → bayes
 //! → belief → dsmt → neutrosophic → rank → export) on the synthetic fixture
 //! by calling the library API directly, then asserts the contract-level
-//! invariants documented in `plan.txt` and `primary_input_contract.md`.
+//! invariants used by the pipeline and `primary_input_contract.md`.
 
 use std::path::PathBuf;
 
