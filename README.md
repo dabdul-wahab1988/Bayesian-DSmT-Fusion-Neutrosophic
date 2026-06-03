@@ -208,7 +208,3 @@ Reproducibility is built around the SQLite run manifest:
 - exports include manifest records for generated CSVs.
 
 See `REPRODUCIBILITY.md` for the worked fixture recipe.
-
-## Attribution
-
-No AI attribution trailer is included in this repository.
