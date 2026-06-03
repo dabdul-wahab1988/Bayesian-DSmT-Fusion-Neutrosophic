@@ -1,0 +1,8 @@
+sample_id,site_id,campaign_id,sample_date,matrix,depth_min_cm,depth_max_cm,replicate_id,qa_flag,sampler,notes
+SE1,S1,CAMP-2024-Q1,2024-03-12,sediment,0,5,R1,pass,field-team-A,baseline grab
+SE2,S2,CAMP-2024-Q1,2024-03-12,sediment,0,5,R1,pass,field-team-A,downstream of pit
+SE3,S3,CAMP-2024-Q1,2024-03-12,sediment,0,5,R1,pass,field-team-A,tailings inflow
+SE4,S4,CAMP-2024-Q1,2024-03-12,sediment,0,5,R1,pass,field-team-A,confluence
+SE5,S5,CAMP-2024-Q1,2024-03-12,sediment,0,5,R1,pass,field-team-A,downstream
+SE6,S6,CAMP-2024-Q1,2024-03-12,sediment,0,5,R1,pass,field-team-B,mostly non-detects
+SE7,S7,CAMP-2024-Q1,2024-03-12,sediment,0,5,R1,pass,field-team-B,conflicting indicators

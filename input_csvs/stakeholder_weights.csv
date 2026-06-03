@@ -1,0 +1,6 @@
+weight_id,criterion,weight,weight_source,stakeholder_group,notes
+W1,contamination_intensity,0.35,expert,environmental regulator,chemical/hotspot intensity receives highest weight
+W2,source_plausibility,0.25,expert,technical advisory group,risk-weighted source support from Bayesian-DSmT fusion
+W3,exposure_relevance,0.2,expert,public health and water users,receptor/exposure context
+W4,confidence,0.1,expert,laboratory and field QA team,evidence quality and uncertainty
+W5,field_verification,0.1,expert,implementation team,rank instability and need for field verification

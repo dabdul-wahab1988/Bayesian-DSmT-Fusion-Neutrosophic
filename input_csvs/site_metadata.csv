@@ -1,0 +1,31 @@
+site_id,site_name,latitude,longitude,catchment,administrative_area,site_type,land_use_context,notes
+GHSED-001,Tarkwa Bonsa River downstream,5.301,-1.984,Ankobra/Pra,Western Region,river_sediment,gold mining and tailings corridor, Field measurements.
+GHSED-002,Prestea Ankobra reach,5.433,-2.142,Ankobra,Western Region,river_sediment,gold mining settlement corridor,Field measurements.
+GHSED-003,Bogoso mine-drainage reach,5.573,-2.014,Ankobra,Western Region,river_sediment,mining and mixed settlement,Field measurements.
+GHSED-004,Obuasi Akrokeri stream,6.201,-1.667,Pra/Offin,Ashanti Region,river_sediment,gold mining and processing zone,Field measurements.
+GHSED-005,Konongo Odumase Pra tributary,6.613,-1.216,Pra,Ashanti Region,river_sediment,legacy mining and urban fringe,Field measurements.
+GHSED-006,Bibiani mine catchment,6.465,-2.319,Ankobra,Western North Region,river_sediment,gold mining and forest agriculture,Field measurements.
+GHSED-007,Dunkwa-on-Offin sediment bar,5.96,-1.779,Offin,Central Region,river_sediment,alluvial mining and river transport,Field measurements.
+GHSED-008,Akwatia Birim reach,6.043,-0.808,Birim,Eastern Region,river_sediment,diamond mining and settlement,Field measurements.
+GHSED-009,Kibi Birim reference-mixed reach,6.164,-0.553,Birim,Eastern Region,river_sediment,mining-adjacent forest agriculture,Field measurements.
+GHSED-010,Kenyasi Ahafo mine influence,7.028,-2.311,Tano,Ahafo Region,river_sediment,gold mining and rural settlement,Field measurements.
+GHSED-011,Atewa forest headwater,6.23,-0.566,Birim,Eastern Region,river_sediment,forest/lithogenic reference,Field measurements.
+GHSED-012,Nsawam Densu River,5.809,-0.35,Densu,Eastern Region,river_sediment,peri-urban agriculture,Field measurements.
+GHSED-013,Korle Lagoon central basin,5.535,-0.222,Korle/Odaw,Greater Accra Region,lagoon_sediment,dense urban and industrial drainage,Field measurements.
+GHSED-014,Odaw River Avenor reach,5.573,-0.219,Odaw,Greater Accra Region,river_sediment,urban drain and informal industry,Field measurements.
+GHSED-015,Tema Sakumo Lagoon,5.632,-0.014,Sakumo,Greater Accra Region,lagoon_sediment,industrial-port and wetland margin,Field measurements.
+GHSED-016,Keta Lagoon western basin,5.919,0.985,Keta Lagoon,Volta Region,lagoon_sediment,coastal lagoon and agriculture,Field measurements.
+GHSED-017,Weija Densu estuary,5.562,-0.345,Densu,Greater Accra Region,estuary_sediment,urban reservoir-estuary interface,Field measurements.
+GHSED-018,Lake Bosomtwe littoral reference,6.507,-1.416,Bosomtwe,Ashanti Region,lake_sediment,lake/reference with tourism pressure,Field measurements.
+GHSED-019,Kumasi Subin River,6.696,-1.628,Pra/Subin,Ashanti Region,river_sediment,urban commercial-industrial drainage,Field measurements.
+GHSED-020,Bolgatanga White Volta reach,10.79,-0.851,White Volta,Upper East Region,river_sediment,agriculture and seasonal settlement,Field measurements.
+GHSED-021,Bamboi Black Volta reach,8.256,-2.045,Black Volta,Savannah Region,river_sediment,agriculture and river transport,Field measurements.
+GHSED-022,Techiman Tano tributary,7.584,-1.938,Tano,Bono East Region,river_sediment,market town agriculture,Field measurements.
+GHSED-023,Tarkwa tailings pond outflow,5.273,-1.996,Ankobra/Pra,Western Region,river_sediment,proximal mine tailings outflow,Field measurements.
+GHSED-024,Ada Volta estuary,5.783,0.633,Lower Volta,Greater Accra Region,estuary_sediment,"estuary, fisheries and irrigation",Field measurements.
+GHSED-025,Shama Pra estuary,5.008,-1.626,Pra,Western Region,estuary_sediment,estuary downstream of mining catchments,Field measurements.
+GHSED-026,Takoradi Harbour sediment,4.901,-1.754,Coastal,Western Region,harbour_sediment,"port, harbour and urban industry",Field measurements.
+GHSED-027,Winneba Muni Lagoon,5.35,-0.628,Muni-Pomadze,Central Region,lagoon_sediment,coastal lagoon and fishing settlement,Field measurements.
+GHSED-028,Cape Coast Fosu Lagoon,5.116,-1.246,Fosu,Central Region,lagoon_sediment,urban lagoon and market drainage,Field measurements.
+GHSED-029,Nawuni White Volta reach,9.715,-0.861,White Volta,Northern Region,river_sediment,agriculture and upstream catchment mixing,Field measurements.
+GHSED-030,Asankragwa Wassa Amenfi reach,5.801,-2.451,Ankobra,Western Region,river_sediment,small-scale mining and cocoa agriculture,Field measurements.

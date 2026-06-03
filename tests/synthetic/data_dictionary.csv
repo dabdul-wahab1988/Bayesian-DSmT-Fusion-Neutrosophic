@@ -1,0 +1,13 @@
+variable_name,table_name,variable_type,unit,allowed_min,allowed_max,allowed_values,description
+site_id,raw_sites,text,,,,,
+latitude,raw_sites,numeric,deg,-90,90,,
+longitude,raw_sites,numeric,deg,-180,180,,
+value,raw_metal_concentrations,numeric,mg/kg,0,,,
+detect_flag,raw_metal_concentrations,categorical,,,,"0;1",0 non-detect 1 detected
+metal,raw_metal_concentrations,text,,,,,
+background_value,raw_background_values,numeric,mg/kg,0,,,
+weight,raw_stakeholder_weights,numeric,,0,1,,
+dsmt_model,raw_config_parameters,categorical,,,,"free;hybrid;shafer",DSmT model
+nondetect_method,raw_config_parameters,categorical,,,,"dl_sqrt2;dl_half;censored_bayes",non-detect substitution
+direction,raw_source_indicators,categorical,,,,"higher_risk;lower_risk",indicator direction
+receptor_type,raw_exposure_indicators,categorical,,,,"water_intake;settlement;fishery;wetland;irrigation",exposure receptor

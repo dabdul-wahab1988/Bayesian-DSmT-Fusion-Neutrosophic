@@ -1,0 +1,6 @@
+background_id,metal,background_value,unit,background_type,source_reference,uncertainty_sd,valid_from,valid_to,notes
+BG-As,As,5.0,mg/kg,local,regional geochem survey 2018,0.6,,,local background
+BG-Cd,Cd,0.30,mg/kg,local,regional geochem survey 2018,0.05,,,local background
+BG-Cr,Cr,45.0,mg/kg,local,regional geochem survey 2018,5.0,,,local background
+BG-Pb,Pb,20.0,mg/kg,local,regional geochem survey 2018,2.5,,,local background
+BG-Zn,Zn,60.0,mg/kg,local,regional geochem survey 2018,7.0,,,local background

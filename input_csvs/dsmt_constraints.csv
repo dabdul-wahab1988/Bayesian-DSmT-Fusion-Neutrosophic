@@ -1,0 +1,5 @@
+constraint_id,expression,constraint_type,reason,active,notes
+CON-001,H_LITHO ∩ H_MINE = ∅,empty,Background-only state cannot simultaneously be mine-dominated in this hybrid test frame.,1,Hybrid constraint for model sensitivity testing.
+CON-002,H_LITHO ∩ H_URBAN = ∅,empty,Background-only state cannot simultaneously be urban-dominated in this hybrid test frame.,1,Hybrid constraint for model sensitivity testing.
+CON-003,H_LITHO ∩ H_PORT = ∅,empty,Background-only state cannot simultaneously be port-dominated in this hybrid test frame.,1,Hybrid constraint for model sensitivity testing.
+CON-004,H_MINE ∪ H_URBAN allowed,allowed,Mining and urban sources may co-occur in downstream settlement reaches.,1,Allow union propositions for DSmT evidence fusion.

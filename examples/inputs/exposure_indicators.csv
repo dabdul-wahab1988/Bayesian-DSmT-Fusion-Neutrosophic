@@ -1,0 +1,10 @@
+exposure_id,site_id,receptor_type,indicator_name,indicator_value,indicator_unit,direction,reliability_weight,evidence_date,notes
+EXP-S1,S1,wetland,downstream wetland extent,0.2,km,higher_risk,0.70,2024-03-12,small wetland
+EXP-S2,S2,water_intake,community water intake,0.1,people,higher_risk,0.80,2024-03-12,small village
+EXP-S3,S3,water_intake,community water intake,0.5,people,higher_risk,0.85,2024-03-12,large village
+EXP-S4,S4,irrigation,irrigated area downstream,2.5,ha,higher_risk,0.80,2024-03-12,moderate
+EXP-S5,S5,settlement,settlement density,180,people/km2,higher_risk,0.90,2024-03-12,urban edge
+EXP-S5F,S5,fishery,active fishery landings,12,tonnes/yr,higher_risk,0.85,2024-03-12,subsistence
+EXP-S6,S6,wetland,downstream wetland extent,0.6,km,higher_risk,0.70,2024-03-12,small
+EXP-S7,S7,settlement,settlement density,420,people/km2,higher_risk,0.90,2024-03-12,urban
+EXP-S7I,S7,irrigation,irrigated area downstream,1.2,ha,higher_risk,0.75,2024-03-12,smallholder

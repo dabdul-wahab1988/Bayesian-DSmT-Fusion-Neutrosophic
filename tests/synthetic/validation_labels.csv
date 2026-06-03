@@ -1,0 +1,11 @@
+label_id,site_id,label_name,label_value,label_date,label_source,independent_of_features,notes
+VL-S1,S1,hotspot,no,2024-04-15,expert,1,expert judgement
+VL-S2,S2,hotspot,yes,2024-04-15,expert,1,expert judgement
+VL-S3,S3,hotspot,yes,2024-04-15,expert,1,expert judgement
+VL-S4,S4,hotspot,no,2024-04-15,expert,1,expert judgement
+VL-S5,S5,hotspot,no,2024-04-15,expert,1,expert judgement
+VL-S6,S6,hotspot,no,2024-04-15,expert,1,expert judgement
+VL-S7,S7,hotspot,no,2024-04-15,expert,1,expert judgement
+VL-S2-SRC,S2,source_label,mining,2024-04-15,expert,1,expert judgement
+VL-S3-SRC,S3,source_label,mining,2024-04-15,expert,1,expert judgement
+VL-S7-SRC,S7,source_label,mixed,2024-04-15,expert,1,expert judgement

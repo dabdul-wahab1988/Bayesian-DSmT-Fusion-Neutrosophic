@@ -1,0 +1,91 @@
+confidence_id,site_id,indicator_name,indicator_value,indicator_unit,direction,reliability_weight,notes
+CONF-0001,GHSED-001,sampling_coverage_score,0.87,score_0_1,higher_confidence,0.72,Two-season surface-sediment coverage proxy.
+CONF-0002,GHSED-001,laboratory_qa_score,0.94,score_0_1,higher_confidence,0.78,QA score based on lab flag profile.
+CONF-0003,GHSED-001,temporal_repeatability_score,0.85,score_0_1,higher_confidence,0.85,Agreement between dry/wet campaigns.
+CONF-0004,GHSED-002,sampling_coverage_score,0.87,score_0_1,higher_confidence,0.88,Two-season surface-sediment coverage proxy.
+CONF-0005,GHSED-002,laboratory_qa_score,0.92,score_0_1,higher_confidence,0.77,QA score based on lab flag profile.
+CONF-0006,GHSED-002,temporal_repeatability_score,0.86,score_0_1,higher_confidence,0.79,Agreement between dry/wet campaigns.
+CONF-0007,GHSED-003,sampling_coverage_score,0.85,score_0_1,higher_confidence,0.88,Two-season surface-sediment coverage proxy.
+CONF-0008,GHSED-003,laboratory_qa_score,0.95,score_0_1,higher_confidence,0.8,QA score based on lab flag profile.
+CONF-0009,GHSED-003,temporal_repeatability_score,0.86,score_0_1,higher_confidence,0.87,Agreement between dry/wet campaigns.
+CONF-0010,GHSED-004,sampling_coverage_score,0.91,score_0_1,higher_confidence,0.76,Two-season surface-sediment coverage proxy.
+CONF-0011,GHSED-004,laboratory_qa_score,0.88,score_0_1,higher_confidence,0.74,QA score based on lab flag profile.
+CONF-0012,GHSED-004,temporal_repeatability_score,0.84,score_0_1,higher_confidence,0.73,Agreement between dry/wet campaigns.
+CONF-0013,GHSED-005,sampling_coverage_score,0.88,score_0_1,higher_confidence,0.8,Two-season surface-sediment coverage proxy.
+CONF-0014,GHSED-005,laboratory_qa_score,0.94,score_0_1,higher_confidence,0.77,QA score based on lab flag profile.
+CONF-0015,GHSED-005,temporal_repeatability_score,0.91,score_0_1,higher_confidence,0.76,Agreement between dry/wet campaigns.
+CONF-0016,GHSED-006,sampling_coverage_score,0.91,score_0_1,higher_confidence,0.82,Two-season surface-sediment coverage proxy.
+CONF-0017,GHSED-006,laboratory_qa_score,0.88,score_0_1,higher_confidence,0.78,QA score based on lab flag profile.
+CONF-0018,GHSED-006,temporal_repeatability_score,0.87,score_0_1,higher_confidence,0.88,Agreement between dry/wet campaigns.
+CONF-0019,GHSED-007,sampling_coverage_score,0.89,score_0_1,higher_confidence,0.78,Two-season surface-sediment coverage proxy.
+CONF-0020,GHSED-007,laboratory_qa_score,0.91,score_0_1,higher_confidence,0.78,QA score based on lab flag profile.
+CONF-0021,GHSED-007,temporal_repeatability_score,0.83,score_0_1,higher_confidence,0.75,Agreement between dry/wet campaigns.
+CONF-0022,GHSED-008,sampling_coverage_score,0.89,score_0_1,higher_confidence,0.78,Two-season surface-sediment coverage proxy.
+CONF-0023,GHSED-008,laboratory_qa_score,0.9,score_0_1,higher_confidence,0.73,QA score based on lab flag profile.
+CONF-0024,GHSED-008,temporal_repeatability_score,0.84,score_0_1,higher_confidence,0.91,Agreement between dry/wet campaigns.
+CONF-0025,GHSED-009,sampling_coverage_score,0.91,score_0_1,higher_confidence,0.82,Two-season surface-sediment coverage proxy.
+CONF-0026,GHSED-009,laboratory_qa_score,0.95,score_0_1,higher_confidence,0.91,QA score based on lab flag profile.
+CONF-0027,GHSED-009,temporal_repeatability_score,0.84,score_0_1,higher_confidence,0.91,Agreement between dry/wet campaigns.
+CONF-0028,GHSED-010,sampling_coverage_score,0.89,score_0_1,higher_confidence,0.78,Two-season surface-sediment coverage proxy.
+CONF-0029,GHSED-010,laboratory_qa_score,0.94,score_0_1,higher_confidence,0.8,QA score based on lab flag profile.
+CONF-0030,GHSED-010,temporal_repeatability_score,0.84,score_0_1,higher_confidence,0.75,Agreement between dry/wet campaigns.
+CONF-0031,GHSED-011,sampling_coverage_score,0.86,score_0_1,higher_confidence,0.78,Two-season surface-sediment coverage proxy.
+CONF-0032,GHSED-011,laboratory_qa_score,0.94,score_0_1,higher_confidence,0.86,QA score based on lab flag profile.
+CONF-0033,GHSED-011,temporal_repeatability_score,0.82,score_0_1,higher_confidence,0.88,Agreement between dry/wet campaigns.
+CONF-0034,GHSED-012,sampling_coverage_score,0.91,score_0_1,higher_confidence,0.91,Two-season surface-sediment coverage proxy.
+CONF-0035,GHSED-012,laboratory_qa_score,0.92,score_0_1,higher_confidence,0.83,QA score based on lab flag profile.
+CONF-0036,GHSED-012,temporal_repeatability_score,0.88,score_0_1,higher_confidence,0.75,Agreement between dry/wet campaigns.
+CONF-0037,GHSED-013,sampling_coverage_score,0.84,score_0_1,higher_confidence,0.89,Two-season surface-sediment coverage proxy.
+CONF-0038,GHSED-013,laboratory_qa_score,0.9,score_0_1,higher_confidence,0.74,QA score based on lab flag profile.
+CONF-0039,GHSED-013,temporal_repeatability_score,0.82,score_0_1,higher_confidence,0.86,Agreement between dry/wet campaigns.
+CONF-0040,GHSED-014,sampling_coverage_score,0.84,score_0_1,higher_confidence,0.85,Two-season surface-sediment coverage proxy.
+CONF-0041,GHSED-014,laboratory_qa_score,0.9,score_0_1,higher_confidence,0.84,QA score based on lab flag profile.
+CONF-0042,GHSED-014,temporal_repeatability_score,0.81,score_0_1,higher_confidence,0.89,Agreement between dry/wet campaigns.
+CONF-0043,GHSED-015,sampling_coverage_score,0.84,score_0_1,higher_confidence,0.82,Two-season surface-sediment coverage proxy.
+CONF-0044,GHSED-015,laboratory_qa_score,0.94,score_0_1,higher_confidence,0.89,QA score based on lab flag profile.
+CONF-0045,GHSED-015,temporal_repeatability_score,0.85,score_0_1,higher_confidence,0.79,Agreement between dry/wet campaigns.
+CONF-0046,GHSED-016,sampling_coverage_score,0.92,score_0_1,higher_confidence,0.91,Two-season surface-sediment coverage proxy.
+CONF-0047,GHSED-016,laboratory_qa_score,0.88,score_0_1,higher_confidence,0.91,QA score based on lab flag profile.
+CONF-0048,GHSED-016,temporal_repeatability_score,0.83,score_0_1,higher_confidence,0.74,Agreement between dry/wet campaigns.
+CONF-0049,GHSED-017,sampling_coverage_score,0.92,score_0_1,higher_confidence,0.76,Two-season surface-sediment coverage proxy.
+CONF-0050,GHSED-017,laboratory_qa_score,0.92,score_0_1,higher_confidence,0.9,QA score based on lab flag profile.
+CONF-0051,GHSED-017,temporal_repeatability_score,0.87,score_0_1,higher_confidence,0.83,Agreement between dry/wet campaigns.
+CONF-0052,GHSED-018,sampling_coverage_score,0.9,score_0_1,higher_confidence,0.83,Two-season surface-sediment coverage proxy.
+CONF-0053,GHSED-018,laboratory_qa_score,0.91,score_0_1,higher_confidence,0.79,QA score based on lab flag profile.
+CONF-0054,GHSED-018,temporal_repeatability_score,0.91,score_0_1,higher_confidence,0.77,Agreement between dry/wet campaigns.
+CONF-0055,GHSED-019,sampling_coverage_score,0.87,score_0_1,higher_confidence,0.81,Two-season surface-sediment coverage proxy.
+CONF-0056,GHSED-019,laboratory_qa_score,0.92,score_0_1,higher_confidence,0.89,QA score based on lab flag profile.
+CONF-0057,GHSED-019,temporal_repeatability_score,0.94,score_0_1,higher_confidence,0.9,Agreement between dry/wet campaigns.
+CONF-0058,GHSED-020,sampling_coverage_score,0.86,score_0_1,higher_confidence,0.83,Two-season surface-sediment coverage proxy.
+CONF-0059,GHSED-020,laboratory_qa_score,0.91,score_0_1,higher_confidence,0.76,QA score based on lab flag profile.
+CONF-0060,GHSED-020,temporal_repeatability_score,0.92,score_0_1,higher_confidence,0.75,Agreement between dry/wet campaigns.
+CONF-0061,GHSED-021,sampling_coverage_score,0.85,score_0_1,higher_confidence,0.75,Two-season surface-sediment coverage proxy.
+CONF-0062,GHSED-021,laboratory_qa_score,0.95,score_0_1,higher_confidence,0.79,QA score based on lab flag profile.
+CONF-0063,GHSED-021,temporal_repeatability_score,0.85,score_0_1,higher_confidence,0.8,Agreement between dry/wet campaigns.
+CONF-0064,GHSED-022,sampling_coverage_score,0.9,score_0_1,higher_confidence,0.85,Two-season surface-sediment coverage proxy.
+CONF-0065,GHSED-022,laboratory_qa_score,0.92,score_0_1,higher_confidence,0.86,QA score based on lab flag profile.
+CONF-0066,GHSED-022,temporal_repeatability_score,0.85,score_0_1,higher_confidence,0.77,Agreement between dry/wet campaigns.
+CONF-0067,GHSED-023,sampling_coverage_score,0.9,score_0_1,higher_confidence,0.75,Two-season surface-sediment coverage proxy.
+CONF-0068,GHSED-023,laboratory_qa_score,0.96,score_0_1,higher_confidence,0.88,QA score based on lab flag profile.
+CONF-0069,GHSED-023,temporal_repeatability_score,0.83,score_0_1,higher_confidence,0.75,Agreement between dry/wet campaigns.
+CONF-0070,GHSED-024,sampling_coverage_score,0.89,score_0_1,higher_confidence,0.9,Two-season surface-sediment coverage proxy.
+CONF-0071,GHSED-024,laboratory_qa_score,0.92,score_0_1,higher_confidence,0.83,QA score based on lab flag profile.
+CONF-0072,GHSED-024,temporal_repeatability_score,0.84,score_0_1,higher_confidence,0.85,Agreement between dry/wet campaigns.
+CONF-0073,GHSED-025,sampling_coverage_score,0.83,score_0_1,higher_confidence,0.85,Two-season surface-sediment coverage proxy.
+CONF-0074,GHSED-025,laboratory_qa_score,0.88,score_0_1,higher_confidence,0.87,QA score based on lab flag profile.
+CONF-0075,GHSED-025,temporal_repeatability_score,0.9,score_0_1,higher_confidence,0.8,Agreement between dry/wet campaigns.
+CONF-0076,GHSED-026,sampling_coverage_score,0.9,score_0_1,higher_confidence,0.86,Two-season surface-sediment coverage proxy.
+CONF-0077,GHSED-026,laboratory_qa_score,0.9,score_0_1,higher_confidence,0.72,QA score based on lab flag profile.
+CONF-0078,GHSED-026,temporal_repeatability_score,0.8,score_0_1,higher_confidence,0.82,Agreement between dry/wet campaigns.
+CONF-0079,GHSED-027,sampling_coverage_score,0.86,score_0_1,higher_confidence,0.82,Two-season surface-sediment coverage proxy.
+CONF-0080,GHSED-027,laboratory_qa_score,0.93,score_0_1,higher_confidence,0.82,QA score based on lab flag profile.
+CONF-0081,GHSED-027,temporal_repeatability_score,0.85,score_0_1,higher_confidence,0.72,Agreement between dry/wet campaigns.
+CONF-0082,GHSED-028,sampling_coverage_score,0.88,score_0_1,higher_confidence,0.83,Two-season surface-sediment coverage proxy.
+CONF-0083,GHSED-028,laboratory_qa_score,0.88,score_0_1,higher_confidence,0.77,QA score based on lab flag profile.
+CONF-0084,GHSED-028,temporal_repeatability_score,0.83,score_0_1,higher_confidence,0.92,Agreement between dry/wet campaigns.
+CONF-0085,GHSED-029,sampling_coverage_score,0.82,score_0_1,higher_confidence,0.9,Two-season surface-sediment coverage proxy.
+CONF-0086,GHSED-029,laboratory_qa_score,0.95,score_0_1,higher_confidence,0.74,QA score based on lab flag profile.
+CONF-0087,GHSED-029,temporal_repeatability_score,0.85,score_0_1,higher_confidence,0.74,Agreement between dry/wet campaigns.
+CONF-0088,GHSED-030,sampling_coverage_score,0.83,score_0_1,higher_confidence,0.83,Two-season surface-sediment coverage proxy.
+CONF-0089,GHSED-030,laboratory_qa_score,0.9,score_0_1,higher_confidence,0.88,QA score based on lab flag profile.
+CONF-0090,GHSED-030,temporal_repeatability_score,0.81,score_0_1,higher_confidence,0.77,Agreement between dry/wet campaigns.

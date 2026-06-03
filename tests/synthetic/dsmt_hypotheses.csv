@@ -1,0 +1,4 @@
+hypothesis_id,hypothesis_symbol,hypothesis_name,description,default_risk_weight,active,notes
+H1,theta_1,Mining,artisanal and small-scale gold mining with Hg and As use,0.40,1,primary anthropogenic source upstream
+H2,theta_2,Agriculture,agrochemical and fertilizer runoff from cocoa farms,0.20,1,secondary diffuse source
+H3,theta_3,Geogenic,natural weathering of mineralised bedrock,0.40,1,baseline lithological contribution

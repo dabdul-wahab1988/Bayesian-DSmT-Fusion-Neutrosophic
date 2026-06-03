@@ -1,0 +1,6 @@
+hypothesis_id,hypothesis_symbol,hypothesis_name,description,default_risk_weight,active,notes
+H_MINE,M,Artisanal and industrial gold-mining influence,"Sediment-metal enrichment associated with mine tailings, ore processing and alluvial disturbance.",0.9,1,Primary source for As and Hg.
+H_URBAN,U,Urban-industrial runoff,"Drainage from dense settlement, workshops, markets, roads, stormwater and light industry.",0.8,1,"Primary source for Pb, Zn, Cu and Cd in urban basins."
+H_AGRI,A,Agricultural diffuse input,"Fertiliser, agrochemical, irrigation-return and eroded cultivated soil inputs.",0.55,1,"Moderate source plausibility for Cd, Mn and mixed loads."
+H_LITHO,L,Lithogenic/background control,Natural geologic and mineralogical control on sediment composition.,0.35,1,"Important for Al, Fe, Cr and Ni normalization/background."
+H_PORT,P,Port/coastal depositional influence,"Harbour activity, antifouling, marine deposition, estuarine mixing and port-linked urban activity.",0.7,1,"Relevant to Tema, Takoradi and coastal lagoons."

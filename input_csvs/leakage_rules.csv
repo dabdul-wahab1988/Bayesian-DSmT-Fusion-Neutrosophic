@@ -1,0 +1,5 @@
+rule_id,variable_name,rule_type,reason,forbidden_for_module,available_after_outcome,notes
+LR-001,validation_label,exclude,validation labels must not enter model fitting or ranking,all,1,prevents leakage from validation target
+LR-002,site_truth,exclude,latent targets are for evaluation only,all,1,"use in Bayesian, DSmT or neutrosophic ranking modules"
+LR-003,priority_band,exclude,derived priority band is an outcome-like variable,all,1,use only after ranking for benchmarking
+LR-004,field_verification_target,time_restrict,field labels are assumed available only after the monitoring campaign,ranking,1,prevents circular prioritization

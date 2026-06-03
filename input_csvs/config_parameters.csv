@@ -1,0 +1,28 @@
+parameter_name,parameter_value,parameter_type,module,description,required
+project_id,ghana-sediment-metal-hotspot-sim-001,string,project,project identifier,1
+study_area,Ghana,string,project,national study area for dataset,1
+topic,Bayesian-DSmT Evidence Fusion with Neutrosophic Prioritization for Sediment-Metal Hotspots,string,project,methodological topic for book chapter dataset,1
+random_seed,42,int,project,seeded RNG for reproducibility,1
+standard_concentration_unit,mg/kg,string,clean,unit normalisation target,1
+nondetect_method,dl_sqrt2,enum,clean,non-detect substitution mode,1
+reference_element,Al,string,features,normalisation element for EF; falls back to CF if absent,1
+enrichment_threshold,1.5,float,bayes,EF threshold for enrichment,1
+bayes_model_mode,internal,enum,bayes,Rust runs the Bayesian models,1
+source_model_mode,internal,enum,bayes,Rust runs the Dirichlet source model,1
+hotspot_model_mode,internal,enum,bayes,Rust runs the unsupervised latent hotspot model,1
+dsmt_model,hybrid,enum,dsmt,"DSmT model: free, hybrid, or shafer",1
+belief_uncertainty_width_max,1.0,float,belief,cap for CI width used as uncertainty score,1
+single_source_margin,0.15,float,belief,delta for single-source decision,1
+union_support_threshold,0.25,float,belief,tau for union support,1
+neutrosophic_indeterminacy_penalty,0.5,float,neutrosophic,eta parameter,1
+ranking_band_critical,0.80,float,rank,priority score for Critical band,1
+ranking_band_high,0.60,float,rank,priority score for High band,1
+ranking_band_moderate,0.40,float,rank,priority score for Moderate band,1
+sqlite_path,ghana_sediment_hotspots.sqlite,string,project,default DB path,1
+mcmc_iterations,4000,int,bayes,number of MCMC iterations,0
+mcmc_burnin,1000,int,bayes,number of burn-in iterations,0
+mcmc_chains,4,int,bayes,number of independent MCMC chains,0
+monte_carlo_draws,1000,int,neutrosophic,number of MC draws for source/rank uncertainty,0
+dirichlet_alpha0,1.0,float,bayes,baseline Dirichlet concentration,0
+dirichlet_lambda,1.2,float,bayes,source-indicator scaling,0
+metal_to_hypothesis,"{""As"": ""H_MINE"", ""Hg"": ""H_MINE"", ""Cd"": ""H_URBAN∪H_AGRI"", ""Pb"": ""H_URBAN∪H_PORT"", ""Zn"": ""H_URBAN"", ""Cu"": ""H_URBAN∪H_PORT"", ""Cr"": ""H_LITHO"", ""Ni"": ""H_LITHO"", ""Mn"": ""H_LITHO∪H_AGRI"", ""Fe"": ""H_LITHO"", ""Al"": ""H_LITHO""}",string,belief,JSON-like map from metal evidence to DSmT hypotheses,0

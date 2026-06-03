@@ -1,0 +1,8 @@
+confidence_id,site_id,indicator_name,indicator_value,indicator_unit,direction,reliability_weight,notes
+CONF-S1,S1,sample QA score,0.95,,higher_confidence,0.90,pass
+CONF-S2,S2,sample QA score,0.92,,higher_confidence,0.90,pass
+CONF-S3,S3,sample QA score,0.97,,higher_confidence,0.90,pass
+CONF-S4,S4,sample QA score,0.88,,higher_confidence,0.90,minor warnings
+CONF-S5,S5,sample QA score,0.93,,higher_confidence,0.90,pass
+CONF-S6,S6,missingness rate,0.40,,lower_confidence,0.85,many non-detects
+CONF-S7,S7,indicator contradiction score,0.55,,lower_confidence,0.80,conflicting indicators

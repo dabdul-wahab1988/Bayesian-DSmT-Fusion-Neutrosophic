@@ -1,0 +1,115 @@
+variable_name,table_name,variable_type,unit,allowed_min,allowed_max,allowed_values,description
+site_id,site_metadata,text,,,,,Sampling sites and spatial context; field site_id
+site_name,site_metadata,text,,,,,Sampling sites and spatial context; field site_name
+latitude,site_metadata,numeric,,,,,Sampling sites and spatial context; field latitude
+longitude,site_metadata,numeric,,,,,Sampling sites and spatial context; field longitude
+catchment,site_metadata,text,,,,,Sampling sites and spatial context; field catchment
+administrative_area,site_metadata,text,,,,,Sampling sites and spatial context; field administrative_area
+site_type,site_metadata,text,,,,,Sampling sites and spatial context; field site_type
+land_use_context,site_metadata,text,,,,,Sampling sites and spatial context; field land_use_context
+notes,site_metadata,text,,,,,Sampling sites and spatial context; field notes
+sample_id,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field sample_id"
+site_id,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field site_id"
+campaign_id,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field campaign_id"
+sample_date,sampling_events,date,,,,,"Sampling events, dates, depth, QA and sample IDs; field sample_date"
+matrix,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field matrix"
+depth_min_cm,sampling_events,numeric,,,,,"Sampling events, dates, depth, QA and sample IDs; field depth_min_cm"
+depth_max_cm,sampling_events,numeric,,,,,"Sampling events, dates, depth, QA and sample IDs; field depth_max_cm"
+replicate_id,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field replicate_id"
+qa_flag,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field qa_flag"
+sampler,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field sampler"
+notes,sampling_events,text,,,,,"Sampling events, dates, depth, QA and sample IDs; field notes"
+concentration_id,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field concentration_id
+sample_id,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field sample_id
+site_id,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field site_id
+metal,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field metal
+value,metal_concentrations,numeric,,,,,Raw sediment-metal concentration measurements; field value
+unit,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field unit
+detect_flag,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field detect_flag
+detection_limit,metal_concentrations,numeric,,,,,Raw sediment-metal concentration measurements; field detection_limit
+analytical_method,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field analytical_method
+lab_id,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field lab_id
+qa_flag,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field qa_flag
+notes,metal_concentrations,text,,,,,Raw sediment-metal concentration measurements; field notes
+background_id,background_values,text,,,,,"Background/reference values for CF, EF and Igeo; field background_id"
+metal,background_values,text,,,,,"Background/reference values for CF, EF and Igeo; field metal"
+background_value,background_values,numeric,,,,,"Background/reference values for CF, EF and Igeo; field background_value"
+unit,background_values,text,,,,,"Background/reference values for CF, EF and Igeo; field unit"
+background_type,background_values,text,,,,,"Background/reference values for CF, EF and Igeo; field background_type"
+source_reference,background_values,text,,,,,"Background/reference values for CF, EF and Igeo; field source_reference"
+uncertainty_sd,background_values,numeric,,,,,"Background/reference values for CF, EF and Igeo; field uncertainty_sd"
+valid_from,background_values,date,,,,,"Background/reference values for CF, EF and Igeo; field valid_from"
+valid_to,background_values,date,,,,,"Background/reference values for CF, EF and Igeo; field valid_to"
+notes,background_values,text,,,,,"Background/reference values for CF, EF and Igeo; field notes"
+hypothesis_id,dsmt_hypotheses,text,,,,,Source hypotheses in the DSmT source frame; field hypothesis_id
+hypothesis_symbol,dsmt_hypotheses,text,,,,,Source hypotheses in the DSmT source frame; field hypothesis_symbol
+hypothesis_name,dsmt_hypotheses,text,,,,,Source hypotheses in the DSmT source frame; field hypothesis_name
+description,dsmt_hypotheses,text,,,,,Source hypotheses in the DSmT source frame; field description
+default_risk_weight,dsmt_hypotheses,numeric,,,,,Source hypotheses in the DSmT source frame; field default_risk_weight
+active,dsmt_hypotheses,text,,,,,Source hypotheses in the DSmT source frame; field active
+notes,dsmt_hypotheses,text,,,,,Source hypotheses in the DSmT source frame; field notes
+parameter_name,config_parameters,text,,,,,"Runtime settings, thresholds and reproducibility controls; field parameter_name"
+parameter_value,config_parameters,text,,,,,"Runtime settings, thresholds and reproducibility controls; field parameter_value"
+parameter_type,config_parameters,text,,,,,"Runtime settings, thresholds and reproducibility controls; field parameter_type"
+module,config_parameters,text,,,,,"Runtime settings, thresholds and reproducibility controls; field module"
+description,config_parameters,text,,,,,"Runtime settings, thresholds and reproducibility controls; field description"
+required,config_parameters,text,,,,,"Runtime settings, thresholds and reproducibility controls; field required"
+indicator_id,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field indicator_id
+site_id,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field site_id
+hypothesis_id,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field hypothesis_id
+indicator_name,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field indicator_name
+indicator_value,source_indicators,numeric,,,,,Evidence supporting each source hypothesis at each site; field indicator_value
+indicator_unit,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field indicator_unit
+direction,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field direction
+reliability_weight,source_indicators,numeric,,,,,Evidence supporting each source hypothesis at each site; field reliability_weight
+evidence_date,source_indicators,date,,,,,Evidence supporting each source hypothesis at each site; field evidence_date
+data_source,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field data_source
+notes,source_indicators,text,,,,,Evidence supporting each source hypothesis at each site; field notes
+exposure_id,exposure_indicators,text,,,,,Receptors and exposure relevance; field exposure_id
+site_id,exposure_indicators,text,,,,,Receptors and exposure relevance; field site_id
+receptor_type,exposure_indicators,text,,,,,Receptors and exposure relevance; field receptor_type
+indicator_name,exposure_indicators,text,,,,,Receptors and exposure relevance; field indicator_name
+indicator_value,exposure_indicators,numeric,,,,,Receptors and exposure relevance; field indicator_value
+indicator_unit,exposure_indicators,text,,,,,Receptors and exposure relevance; field indicator_unit
+direction,exposure_indicators,text,,,,,Receptors and exposure relevance; field direction
+reliability_weight,exposure_indicators,numeric,,,,,Receptors and exposure relevance; field reliability_weight
+evidence_date,exposure_indicators,date,,,,,Receptors and exposure relevance; field evidence_date
+notes,exposure_indicators,text,,,,,Receptors and exposure relevance; field notes
+confidence_id,confidence_indicators,text,,,,,"Evidence quality, uncertainty and sampling confidence; field confidence_id"
+site_id,confidence_indicators,text,,,,,"Evidence quality, uncertainty and sampling confidence; field site_id"
+indicator_name,confidence_indicators,text,,,,,"Evidence quality, uncertainty and sampling confidence; field indicator_name"
+indicator_value,confidence_indicators,numeric,,,,,"Evidence quality, uncertainty and sampling confidence; field indicator_value"
+indicator_unit,confidence_indicators,text,,,,,"Evidence quality, uncertainty and sampling confidence; field indicator_unit"
+direction,confidence_indicators,text,,,,,"Evidence quality, uncertainty and sampling confidence; field direction"
+reliability_weight,confidence_indicators,numeric,,,,,"Evidence quality, uncertainty and sampling confidence; field reliability_weight"
+notes,confidence_indicators,text,,,,,"Evidence quality, uncertainty and sampling confidence; field notes"
+rule_id,leakage_rules,text,,,,,Rules that prevent circular reasoning and invalid predictors; field rule_id
+variable_name,leakage_rules,text,,,,,Rules that prevent circular reasoning and invalid predictors; field variable_name
+rule_type,leakage_rules,text,,,,,Rules that prevent circular reasoning and invalid predictors; field rule_type
+reason,leakage_rules,text,,,,,Rules that prevent circular reasoning and invalid predictors; field reason
+forbidden_for_module,leakage_rules,text,,,,,Rules that prevent circular reasoning and invalid predictors; field forbidden_for_module
+available_after_outcome,leakage_rules,text,,,,,Rules that prevent circular reasoning and invalid predictors; field available_after_outcome
+notes,leakage_rules,text,,,,,Rules that prevent circular reasoning and invalid predictors; field notes
+weight_id,stakeholder_weights,text,,,,,Criterion weights for final neutrosophic ranking; must sum to 1; field weight_id
+criterion,stakeholder_weights,text,,,,,Criterion weights for final neutrosophic ranking; must sum to 1; field criterion
+weight,stakeholder_weights,numeric,,,,,Criterion weights for final neutrosophic ranking; must sum to 1; field weight
+weight_source,stakeholder_weights,text,,,,,Criterion weights for final neutrosophic ranking; must sum to 1; field weight_source
+stakeholder_group,stakeholder_weights,text,,,,,Criterion weights for final neutrosophic ranking; must sum to 1; field stakeholder_group
+notes,stakeholder_weights,text,,,,,Criterion weights for final neutrosophic ranking; must sum to 1; field notes
+label_id,validation_labels,text,,,,,Independent labels for validation only; do not use as predictors; field label_id
+site_id,validation_labels,text,,,,,Independent labels for validation only; do not use as predictors; field site_id
+label_name,validation_labels,text,,,,,Independent labels for validation only; do not use as predictors; field label_name
+label_value,validation_labels,text,,,,,Independent labels for validation only; do not use as predictors; field label_value
+label_date,validation_labels,date,,,,,Independent labels for validation only; do not use as predictors; field label_date
+label_source,validation_labels,text,,,,,Independent labels for validation only; do not use as predictors; field label_source
+independent_of_features,validation_labels,text,,,,,Independent labels for validation only; do not use as predictors; field independent_of_features
+notes,validation_labels,text,,,,,Independent labels for validation only; do not use as predictors; field notes
+constraint_id,dsmt_constraints,text,,,,,Hybrid DSmT constraints; only needed when dsmt_model = hybrid; field constraint_id
+expression,dsmt_constraints,text,,,,,Hybrid DSmT constraints; only needed when dsmt_model = hybrid; field expression
+constraint_type,dsmt_constraints,text,,,,,Hybrid DSmT constraints; only needed when dsmt_model = hybrid; field constraint_type
+reason,dsmt_constraints,text,,,,,Hybrid DSmT constraints; only needed when dsmt_model = hybrid; field reason
+active,dsmt_constraints,text,,,,,Hybrid DSmT constraints; only needed when dsmt_model = hybrid; field active
+notes,dsmt_constraints,text,,,,,Hybrid DSmT constraints; only needed when dsmt_model = hybrid; field notes
+field_name,allowed_values,text,,,,,Controlled vocabulary values; field field_name
+allowed_value,allowed_values,text,,,,,Controlled vocabulary values; field allowed_value
+description,allowed_values,text,,,,,Controlled vocabulary values; field description

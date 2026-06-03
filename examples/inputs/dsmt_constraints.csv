@@ -1,0 +1,4 @@
+constraint_id,expression,constraint_type,reason,active,notes
+CON-MIN-AGR,theta_1 & theta_2,allowed,mining and agriculture can co-occur,1,catchment plausibility
+CON-MIN-GEO,theta_1 & theta_3,allowed,mining footprint overlays mineralised bedrock,1,
+CON-AGR-GEO,theta_2 & theta_3,allowed,agricultural soils form on weathered bedrock,1,

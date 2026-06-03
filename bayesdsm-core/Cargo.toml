@@ -1,0 +1,26 @@
+[package]
+name = "bayesdsm-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description.workspace = true
+
+[lib]
+name = "bayesdsm_core"
+path = "src/lib.rs"
+
+[dependencies]
+rusqlite.workspace = true
+csv.workspace = true
+sha2.workspace = true
+hex.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+rand.workspace = true
+rand_distr.workspace = true
+chrono.workspace = true
+thiserror.workspace = true
+log.workspace = true
+
+[dev-dependencies]
+tempfile = "3"

@@ -1,0 +1,18 @@
+[package]
+name = "bayesdsm-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description.workspace = true
+
+[[bin]]
+name = "bayesdsm"
+path = "src/main.rs"
+
+[dependencies]
+bayesdsm-core = { path = "../bayesdsm-core" }
+clap.workspace = true
+rusqlite.workspace = true
+log.workspace = true
+env_logger.workspace = true
+anyhow = "1"

@@ -1,0 +1,36 @@
+concentration_id,sample_id,site_id,metal,value,unit,detect_flag,detection_limit,analytical_method,lab_id,qa_flag,notes
+C001,SE1,S1,As,4.5,mg/kg,1,,ICP-MS,L1,pass,baseline
+C002,SE1,S1,Cd,0.30,mg/kg,1,,ICP-MS,L1,pass,baseline
+C003,SE1,S1,Cr,40.0,mg/kg,1,,ICP-MS,L1,pass,baseline
+C004,SE1,S1,Pb,18.0,mg/kg,1,,ICP-MS,L1,pass,baseline
+C005,SE1,S1,Zn,55.0,mg/kg,1,,ICP-MS,L1,pass,baseline
+C006,SE2,S2,As,28.0,mg/kg,1,,ICP-MS,L1,pass,elevated
+C007,SE2,S2,Cd,1.40,mg/kg,1,,ICP-MS,L1,pass,elevated
+C008,SE2,S2,Cr,180.0,mg/kg,1,,ICP-MS,L1,pass,elevated
+C009,SE2,S2,Pb,85.0,mg/kg,1,,ICP-MS,L1,pass,elevated
+C010,SE2,S2,Zn,310.0,mg/kg,1,,ICP-MS,L1,pass,elevated
+C011,SE3,S3,As,72.0,mg/kg,1,,ICP-MS,L1,pass,very high
+C012,SE3,S3,Cd,3.20,mg/kg,1,,ICP-MS,L1,pass,very high
+C013,SE3,S3,Cr,420.0,mg/kg,1,,ICP-MS,L1,pass,very high
+C014,SE3,S3,Pb,210.0,mg/kg,1,,ICP-MS,L1,pass,very high
+C015,SE3,S3,Zn,860.0,mg/kg,1,,ICP-MS,L1,pass,very high
+C016,SE4,S4,As,18.0,mg/kg,1,,ICP-MS,L1,pass,moderate
+C017,SE4,S4,Cd,0.85,mg/kg,1,,ICP-MS,L1,pass,moderate
+C018,SE4,S4,Cr,110.0,mg/kg,1,,ICP-MS,L1,pass,moderate
+C019,SE4,S4,Pb,52.0,mg/kg,1,,ICP-MS,L1,pass,moderate
+C020,SE4,S4,Zn,180.0,mg/kg,1,,ICP-MS,L1,pass,moderate
+C021,SE5,S5,As,12.0,mg/kg,1,,ICP-MS,L1,pass,mild elevation
+C022,SE5,S5,Cd,0.55,mg/kg,1,,ICP-MS,L1,pass,mild elevation
+C023,SE5,S5,Cr,75.0,mg/kg,1,,ICP-MS,L1,pass,mild elevation
+C024,SE5,S5,Pb,32.0,mg/kg,1,,ICP-MS,L1,pass,mild elevation
+C025,SE5,S5,Zn,120.0,mg/kg,1,,ICP-MS,L1,pass,mild elevation
+C026,SE6,S6,As,2.0,mg/kg,0,0.5,ICP-MS,L1,pass,non-detect
+C027,SE6,S6,Cd,0.04,mg/kg,0,0.05,ICP-MS,L1,pass,non-detect
+C028,SE6,S6,Cr,18.0,mg/kg,1,,ICP-MS,L1,pass,detected
+C029,SE6,S6,Pb,7.0,mg/kg,1,,ICP-MS,L1,pass,detected
+C030,SE6,S6,Zn,32.0,mg/kg,1,,ICP-MS,L1,pass,detected
+C031,SE7,S7,As,55.0,mg/kg,1,,ICP-MS,L1,pass,high
+C032,SE7,S7,Cd,2.40,mg/kg,1,,ICP-MS,L1,pass,high
+C033,SE7,S7,Cr,260.0,mg/kg,1,,ICP-MS,L1,pass,high
+C034,SE7,S7,Pb,140.0,mg/kg,1,,ICP-MS,L1,pass,high
+C035,SE7,S7,Zn,520.0,mg/kg,1,,ICP-MS,L1,pass,high

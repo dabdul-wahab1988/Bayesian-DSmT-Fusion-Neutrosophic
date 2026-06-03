@@ -1,0 +1,16 @@
+# Build artifacts
+target/
+Cargo.lock
+
+# Runtime artifacts
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+out/
+example-out/
+example.sqlite
+test.sqlite
+
+# Local text/document drafts
+*.txt
+*.docx

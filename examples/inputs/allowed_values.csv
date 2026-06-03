@@ -1,0 +1,33 @@
+field_name,allowed_value,description
+dsmt_model,free,DSmT free model
+dsmt_model,hybrid,DSmT hybrid model with constraints
+dsmt_model,shafer,Shafer model restricted to singletons + theta
+nondetect_method,dl_sqrt2,divide DL by sqrt(2)
+nondetect_method,dl_half,use DL/2
+nondetect_method,censored_bayes,Bayesian censored likelihood
+direction,higher_risk,indicator raises risk
+direction,lower_risk,indicator lowers risk
+direction,higher_confidence,indicator raises confidence
+direction,lower_confidence,indicator lowers confidence
+receptor_type,water_intake,community drinking water
+receptor_type,settlement,residential area
+receptor_type,fishery,active fisheries
+receptor_type,wetland,wetland downstream
+receptor_type,irrigation,irrigation use
+rule_type,exclude,exclude variable entirely
+rule_type,warn,issue warning when used
+rule_type,time_restrict,restrict to periods
+rule_type,group_restrict,restrict to groups
+label_source,field,independent field measurement
+label_source,regulatory,regulatory designation
+label_source,expert,expert judgement
+label_source,historical,historical record
+background_type,local,local geochemical survey
+background_type,regional,regional composite
+background_type,crustal,crustal average
+background_type,regulatory,regulatory threshold
+background_type,literature,published literature
+weight_source,stakeholder,stakeholder-derived
+weight_source,entropy,entropy-derived
+weight_source,equal,equal weights
+weight_source,expert,expert-derived

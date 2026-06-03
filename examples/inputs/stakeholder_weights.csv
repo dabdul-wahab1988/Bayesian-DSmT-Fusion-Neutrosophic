@@ -1,0 +1,6 @@
+weight_id,criterion,weight,weight_source,stakeholder_group,notes
+W1,contamination,0.25,equal,,
+W2,enrichment,0.25,equal,,
+W3,exposure,0.20,equal,,
+W4,source_evidence,0.20,equal,,
+W5,confidence,0.10,equal,,

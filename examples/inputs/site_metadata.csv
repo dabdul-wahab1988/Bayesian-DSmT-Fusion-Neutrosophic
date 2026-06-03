@@ -1,0 +1,8 @@
+site_id,site_name,latitude,longitude,catchment,administrative_area,site_type,land_use_context,notes
+S1,Upstream Reference,5.6037,-0.1870,Pra Basin,Central Region,background,forest reserve,least impacted reference
+S2,Mid-catchment Mining,5.6210,-0.1740,Pra Basin,Central Region,mine-adjacent,artisanal mining,downstream of active pit
+S3,Tailings Discharge,5.6380,-0.1610,Pra Basin,Central Region,mine-adjacent,artisanal mining,direct tailings inflow
+S4,Confluence Zone,5.6550,-0.1490,Pra Basin,Central Region,mixed,agricultural,where tributary meets main stem
+S5,Downstream Settlement,5.6720,-0.1370,Pra Basin,Central Region,mixed,peri-urban,fishery and water intake
+S6,Edge NonDetect Heavy,5.6900,-0.1240,Pra Basin,Central Region,mixed,peri-urban,mostly non-detects for low-concentration metals
+S7,Edge Conflict Indicators,5.7080,-0.1110,Pra Basin,Central Region,mixed,industrial,conflicting source indicators

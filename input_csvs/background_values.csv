@@ -1,0 +1,12 @@
+background_id,metal,background_value,unit,background_type,source_reference,uncertainty_sd,valid_from,valid_to,notes
+BG-001,As,10,mg/kg,regional, measured,2,2025-01-01,2026-12-31, Regulatory threshold.
+BG-002,Cd,0.3,mg/kg,regional,measured,0.08,2025-01-01,2026-12-31, Regulatory threshold.
+BG-003,Cr,90,mg/kg,regional, measured,18,2025-01-01,2026-12-31, Regulatory threshold.
+BG-004,Cu,45,mg/kg,regional,measured,10,2025-01-01,2026-12-31,Regulatory threshold.
+BG-005,Hg,0.1,mg/kg,regional, measured,0.03,2025-01-01,2026-12-31, Regulatory threshold.
+BG-006,Ni,68,mg/kg,regional,measured,14,2025-01-01,2026-12-31, Regulatory threshold.
+BG-007,Pb,20,mg/kg,regional, measured,5,2025-01-01,2026-12-31, Regulatory threshold.
+BG-008,Zn,95,mg/kg,regional, measured,20,2025-01-01,2026-12-31, Regulatory threshold.
+BG-009,Mn,600,mg/kg,regional, measured,120,2025-01-01,2026-12-31, Regulatory threshold.
+BG-010,Fe,35000,mg/kg,regional, measured,6000,2025-01-01,2026-12-31, Regulatory threshold.
+BG-011,Al,70000,mg/kg,regional,measured,9000,2025-01-01,2026-12-31, Regulatory threshold.

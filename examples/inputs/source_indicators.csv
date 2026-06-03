@@ -1,0 +1,23 @@
+indicator_id,site_id,hypothesis_id,indicator_name,indicator_value,indicator_unit,direction,reliability_weight,evidence_date,data_source,notes
+IND-S1-MIN,S1,H1,Hg-use intensity,0.05,,higher_risk,0.80,2024-03-12,field-survey,no active mining
+IND-S1-AGR,S1,H2,fertilizer tonnes,0.1,,higher_risk,0.70,2024-03-12,extension-office,low input
+IND-S1-GEO,S1,H3,mineralised bedrock index,0.6,,higher_risk,0.85,2024-03-12,geological-map,pristine geology
+IND-S2-MIN,S2,H1,Hg-use intensity,0.9,,higher_risk,0.90,2024-03-12,field-survey,active pit
+IND-S2-AGR,S2,H2,fertilizer tonnes,0.2,,higher_risk,0.65,2024-03-12,extension-office,low input
+IND-S2-GEO,S2,H3,mineralised bedrock index,0.5,,higher_risk,0.70,2024-03-12,geological-map,moderate
+IND-S3-MIN,S3,H1,Hg-use intensity,1.0,,higher_risk,0.95,2024-03-12,field-survey,tailings
+IND-S3-AGR,S3,H2,fertilizer tonnes,0.15,,higher_risk,0.60,2024-03-12,extension-office,low input
+IND-S3-GEO,S3,H3,mineralised bedrock index,0.4,,higher_risk,0.60,2024-03-12,geological-map,lower
+IND-S4-MIN,S4,H1,Hg-use intensity,0.3,,higher_risk,0.75,2024-03-12,field-survey,reduced
+IND-S4-AGR,S4,H2,fertilizer tonnes,0.7,,higher_risk,0.80,2024-03-12,extension-office,high input
+IND-S4-GEO,S4,H3,mineralised bedrock index,0.4,,higher_risk,0.65,2024-03-12,geological-map,moderate
+IND-S5-MIN,S5,H1,Hg-use intensity,0.2,,higher_risk,0.70,2024-03-12,field-survey,low
+IND-S5-AGR,S5,H2,fertilizer tonnes,0.6,,higher_risk,0.78,2024-03-12,extension-office,moderate
+IND-S5-GEO,S5,H3,mineralised bedrock index,0.5,,higher_risk,0.70,2024-03-12,geological-map,moderate
+IND-S6-MIN,S6,H1,Hg-use intensity,0.05,,higher_risk,0.70,2024-03-12,field-survey,no mining
+IND-S6-AGR,S6,H2,fertilizer tonnes,0.3,,higher_risk,0.70,2024-03-12,extension-office,low-moderate
+IND-S6-GEO,S6,H3,mineralised bedrock index,0.7,,higher_risk,0.85,2024-03-12,geological-map,pristine
+IND-S7-MIN-HIGH,S7,H1,Hg-use intensity,0.8,,higher_risk,0.85,2024-03-12,field-survey,active pit
+IND-S7-AGR-HIGH,S7,H2,fertilizer tonnes,0.7,,higher_risk,0.80,2024-03-12,extension-office,high input
+IND-S7-MIN-LOW,S7,H1,mining-fingerprint match,0.1,,lower_risk,0.55,2024-03-12,isotope-analysis,weak mining fingerprint
+IND-S7-AGR-LOW,S7,H2,pesticide-residue index,0.05,,lower_risk,0.60,2024-03-12,lab-analysis,low residue

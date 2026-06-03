@@ -1,0 +1,4 @@
+rule_id,variable_name,rule_type,reason,forbidden_for_module,available_after_outcome,notes
+LR-001,validation_label,exclude,validation labels must not enter the training pipeline,bayes,,prevent temporal leakage
+LR-002,future_concentration,time_restrict,future concentrations are not observable,ranking,1,allow only for prospective use
+LR-003,site_category,group_restrict,site category is a stratification variable,validation,,cannot validate using same stratification

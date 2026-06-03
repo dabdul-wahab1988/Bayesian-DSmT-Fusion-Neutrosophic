@@ -1,0 +1,61 @@
+label_id,site_id,label_name,label_value,label_date,label_source,independent_of_features,notes
+VAL-0001,GHSED-001,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Field label for evaluation only; excluded by leakage_rules.
+VAL-0002,GHSED-001,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0003,GHSED-002,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0004,GHSED-002,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0005,GHSED-003,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0006,GHSED-003,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0007,GHSED-004,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0008,GHSED-004,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0009,GHSED-005,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0010,GHSED-005,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0011,GHSED-006,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0012,GHSED-006,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0013,GHSED-007,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0014,GHSED-007,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0015,GHSED-008,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0016,GHSED-008,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0017,GHSED-009,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0018,GHSED-009,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0019,GHSED-010,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0020,GHSED-010,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0021,GHSED-011,simulated_independent_priority_band,low,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0022,GHSED-011,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0023,GHSED-012,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0024,GHSED-012,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0025,GHSED-013,simulated_independent_priority_band,high,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0026,GHSED-013,simulated_binary_hotspot,1,2025-09-01,expert,1,Validation target only.
+VAL-0027,GHSED-014,simulated_independent_priority_band,high,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0028,GHSED-014,simulated_binary_hotspot,1,2025-09-01,expert,1,Validation target only.
+VAL-0029,GHSED-015,simulated_independent_priority_band,high,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0030,GHSED-015,simulated_binary_hotspot,1,2025-09-01,expert,1,Validation target only.
+VAL-0031,GHSED-016,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0032,GHSED-016,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0033,GHSED-017,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0034,GHSED-017,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0035,GHSED-018,simulated_independent_priority_band,low,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0036,GHSED-018,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0037,GHSED-019,simulated_independent_priority_band,high,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0038,GHSED-019,simulated_binary_hotspot,1,2025-09-01,expert,1,Validation target only.
+VAL-0039,GHSED-020,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0040,GHSED-020,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0041,GHSED-021,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0042,GHSED-021,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0043,GHSED-022,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0044,GHSED-022,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0045,GHSED-023,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0046,GHSED-023,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0047,GHSED-024,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0048,GHSED-024,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0049,GHSED-025,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0050,GHSED-025,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0051,GHSED-026,simulated_independent_priority_band,high,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0052,GHSED-026,simulated_binary_hotspot,1,2025-09-01,expert,1,Validation target only.
+VAL-0053,GHSED-027,simulated_independent_priority_band,low,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0054,GHSED-027,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0055,GHSED-028,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0056,GHSED-028,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0057,GHSED-029,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0058,GHSED-029,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
+VAL-0059,GHSED-030,simulated_independent_priority_band,moderate,2025-09-01,expert,1,Label for evaluation only; excluded by leakage_rules.
+VAL-0060,GHSED-030,simulated_binary_hotspot,0,2025-09-01,expert,1,Validation target only.
